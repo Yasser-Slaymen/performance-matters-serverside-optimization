@@ -16,9 +16,13 @@ app.set('views', './views')
 // Routes
 const smartzoneRoute = require('./routes/smartzone')
 const addRoute = require('./routes/add')
+const deleteRoute = require('./routes/delete')
+const editRoute = require('./routes/edit')
 
 app.use('/',smartzoneRoute)
 app.use('/',addRoute)
+app.use('/',deleteRoute)
+app.use('/',editRoute)
 
 
 app.listen(port, () => {
