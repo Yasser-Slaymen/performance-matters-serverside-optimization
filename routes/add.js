@@ -5,19 +5,6 @@ const urlencodedParser = bodyParser.urlencoded({extended:false})
 const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
 const BaseUrl = 'https://codingthecurbs.api.fdnd.nl/v1/smartzone'
 
-// define the home page route 
-
-// Method Get
-router.get('/',(req, res) =>{
-    fetchJson(BaseUrl)
-    .then(function(JsonData) {
-        res.render('smartzones', {
-            title:'Smart Zones',
-            smartzones: JsonData.data
-        })
-    })
-    
-})
 // Method Post
 router.post('/add', urlencodedParser, (req, res) =>{
     const postData = {
@@ -28,7 +15,7 @@ router.post('/add', urlencodedParser, (req, res) =>{
     }
 
     fetchJson(BaseUrl, postData).then(function () {
-        response.render('add', {
+        res.render('add', {
           title: 'add new post',
         })
       })
