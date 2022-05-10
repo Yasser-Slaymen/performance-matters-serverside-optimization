@@ -1,27 +1,20 @@
-const postcss = require('postcss')
-const cssnano = require('cssnano')
-const autoprefixer = require('autoprefixer')
-const fs = require('fs')
+const postcss = require('postcss');
+const cssnano = require('cssnano');
+const autoprefixer = require('autoprefixer');
+const fs = require('fs');
+const cssFile = './public/css/style.css'
+const minCssFile = 'public/css/style.mini.css'
 
-// const cssFile = __dirname + '/../public/style.css'
+// all CSS
+fs.readFile( cssFile, async (err, data) => {
+  const output = await postcss([cssnano, autoprefixer]).process(data);
+  const minifiedCss = output.css;
 
-const cssFile = __dirname + '/../public/css/smart.css'
-const minCssFile = __dirname + '/../public/css/smart.min.css'
+  fs.writeFile( minCssFile, minifiedCss, err => {
+    if (err) {
+      console.log(err);
+    }
+  })
+});
 
-fs.readFile(cssFile, 'utf-8', (err, data) => {
-  console.log('Before:')
-  // console.log(data)
 
-  postcss([cssnano, autoprefixer])
-    .process(data)
-    .then((data) => {
-      // console.log('\r\nAfter:')
-      console.log(data.css)
-
-      // Wegschrijven naar het bestand
-      fs.writeFile(minCssFile, data.css, (err) => {
-        if (err) console.log(err)
-        console.log('Successfully written minified css to ' + minCssFile + '.')
-      })
-    })
-})
