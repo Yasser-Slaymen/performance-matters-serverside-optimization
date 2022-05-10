@@ -2,12 +2,15 @@ const express = require('express')
 const app = express()
 const port = 4000;
 const bodyParser = require('body-parser')
+const compression = require('compression')
 
 
 // Stel een static map in
 app.use(express.static('public'))
 app.use('/assets', express.static('assets'))
 app.use(bodyParser.urlencoded({ extended: true }));
+app.use(compression())
+
 
 // Stel ejs in als template engine
 app.set('view engine', 'ejs')

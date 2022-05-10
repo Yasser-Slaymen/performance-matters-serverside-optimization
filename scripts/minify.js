@@ -5,8 +5,8 @@ const fs = require('fs')
 
 // const cssFile = __dirname + '/../public/style.css'
 
-const cssFile = __dirname + './public/css/smart.css'
-const minCssFile = __dirname + './public/css/smart.min.css'
+const cssFile = __dirname + '/../public/css/smart.css'
+const minCssFile = __dirname + '/../public/css/smart.min.css'
 
 fs.readFile(cssFile, 'utf-8', (err, data) => {
   console.log('Before:')
