@@ -26,14 +26,12 @@ Hierbij heb ik preformance audit gedaan.met behulp van Lighthouse en heb ik ook 
 
 
 # Minifying
-Beschrijf welke bestanden je _minified_ hebt en waarom je dat gedaan hebt. Als je er bewust voor kiest bepaalde bestanden niet te minify-en dan beschrijf je ook waarom je dat niet gedaan hebt.
-
+Met behulp van postcss, cssnano,autoprefixer. heb ik de CSS geminified, zodat mijn applicatie sneller werkt.
 ### Code splitting
-Beschrijf welke front-end javascript bestanden je gesplit hebt en waarom je dat gedaan hebt. Schrijf vanuit het idee van daadwerkelijk gebruikte code per pagina.
-
+Met behulp Module exports, heb ik de code  splitting gemaak. zodat werden op iedere pagina apart  ingeladen. IK heb individueel route voor iedre Method gedaan.  bestanden alleen op de index in te laden.zodat de snelheid stijgt
 ### Caching
 Beschrijf welke caching opties je gekozen hebt en waarom je dat op deze manier doet.
-
+odule
 ### Compressie
 Beschrijf hoe je compressie hebt ingezet en waarom je die keuze hebt gemaakt.
 
