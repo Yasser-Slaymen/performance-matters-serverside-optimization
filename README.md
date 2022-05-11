@@ -37,7 +37,9 @@ Voor de compressie heb ik de express compression package gebruikt.Zodat het maat
 
 ## Bronnen
 [Postcss](https://postcss.org/)
+
 [Express Compression](http://expressjs.com/en/resources/middleware/compression.html)
+
 [cache header IN express](https://regbrain.com/article/cache-headers-express-js)
 ## Licentie
 
