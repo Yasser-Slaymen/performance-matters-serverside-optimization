@@ -37,8 +37,8 @@ Voor de compressie heb ik de express compression package gebruikt.Zodat het maat
 
 ## Bronnen
 [Postcss](https://postcss.org/)
-
-[cache header](https://regbrain.com/article/cache-headers-express-js)
+[Express Compression](http://expressjs.com/en/resources/middleware/compression.html)
+[cache header IN express](https://regbrain.com/article/cache-headers-express-js)
 ## Licentie
 
 ![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
