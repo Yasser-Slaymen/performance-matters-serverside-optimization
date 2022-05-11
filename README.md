@@ -1,10 +1,15 @@
 > _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
-# Titel
-Geef je project een titel en schrijf in één zin wat het is.
+# Coding the Curbs Optimization
+
+
+Voor dit project ga ik optimizen voor het Coding the curbs project uit sprint 9.
+
 
 ## Serverside Performance Optimalisatie
-Beschrijf de website die je hebt geoptimaliseerd, voeg screenshots van de performance audit voor en na het uitvoeren en beschrijf de verbeterde performance. Met andere woorden, welke winst heb je behaald door dit allemaal te doen! Voeg de url en een screenshot van de geoptimaliseerde website toe. 
+Voor deze deeltaak, heb ik de website van coding the curbs geoptimalsieerd,waar ik maakte met behulp van Node js , express en ejs.
+Hierbij heb ik preformance audit gedaan.
+![Screenshot (13)](https://user-images.githubusercontent.com/90189815/167798790-41d69567-d503-4598-8548-b86e433972cd.png)
 
 ### Minifying
 Beschrijf welke bestanden je _minified_ hebt en waarom je dat gedaan hebt. Als je er bewust voor kiest bepaalde bestanden niet te minify-en dan beschrijf je ook waarom je dat niet gedaan hebt.
