@@ -12,7 +12,6 @@ Hierbij heb ik preformance audit gedaan.met behulp van Lighthouse en heb ik ook 
 
 
 ![Screenshot (13)](https://user-images.githubusercontent.com/90189815/167798790-41d69567-d503-4598-8548-b86e433972cd.png)
-![Screenshot (16)](https://user-images.githubusercontent.com/90189815/167801359-86630282-72a9-42f0-b3f6-b1e11f839985.png)
 
 ![Screenshot (15)](https://user-images.githubusercontent.com/90189815/167801056-ab2086ba-2e3a-4d16-919c-f19a4d2d3146.png)
 
@@ -20,6 +19,9 @@ Hierbij heb ik preformance audit gedaan.met behulp van Lighthouse en heb ik ook 
 
 
 ![Screenshot (19)](https://user-images.githubusercontent.com/90189815/167800460-bac09123-948c-4ede-a37e-67395a81bb92.png)
+
+![Screenshot (16)](https://user-images.githubusercontent.com/90189815/167801359-86630282-72a9-42f0-b3f6-b1e11f839985.png)
+
 ![Screenshot (17)](https://user-images.githubusercontent.com/90189815/167800770-dceb3351-7ff0-4f72-a2fb-26c161f0e69e.png)
 
 
