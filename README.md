@@ -28,15 +28,14 @@ Hierbij heb ik preformance audit gedaan.met behulp van Lighthouse en heb ik ook 
 # Minifying
 Met behulp van postcss, cssnano,autoprefixer. heb ik de CSS geminified, zodat mijn applicatie sneller werkt.
 ### Code splitting
-Met behulp Module exports, heb ik de code  splitting gemaak. zodat werden op iedere pagina apart  ingeladen. IK heb individueel route voor iedre Method gedaan.  bestanden alleen op de index in te laden.zodat de snelheid stijgt
+  Zelf heb ik niet in mijn client-side Javascript ge-code split maar heb ik wel Met behulp Module exports, heb ik de code  splitting gemaak. zodat werden op iedere pagina apart  ingeladen. IK heb individueel route voor iedre Method gedaan.  bestanden alleen op de index in te laden.zodat de snelheid stijgt
 ### Caching
-Beschrijf welke caching opties je gekozen hebt en waarom je dat op deze manier doet.
-odule
+Ik heb de Cache-control header gebruikt zodat er om de 8 minuten een request kan worden gemaakt naar de server. Dit zorgt ervoor dat er niet constant requests naar de server gestuurd blijven worden. Dit bespaart kosten voor de server
 ### Compressie
-Beschrijf hoe je compressie hebt ingezet en waarom je die keuze hebt gemaakt.
+Voor de compressie heb ik de express compression package gebruikt.Zodat het maat van bestanden kleiner worden. Dit zorgt ook voor applicatie sneller worden
+
 
 ## Bronnen
-Beschrijf de door jou gebruikte bronnen om bovenstaande stappen uit te voeren.
 
 ## Licentie
 
