@@ -1,9 +1,9 @@
-const express = require('express')
-const router = express.Router()
-const bodyParser = require('body-parser')
-const urlencodedParser = bodyParser.urlencoded({extended:false})
-const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
-const BaseUrl = 'https://codingthecurbs.api.fdnd.nl/v1/smartzone'
+// const express = require('express')
+// const router = express.Router()
+// const bodyParser = require('body-parser')
+// const urlencodedParser = bodyParser.urlencoded({extended:false})
+// const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
+// const BaseUrl = 'https://codingthecurbs.api.fdnd.nl/v1/smartzone'
 
 // Method Post
 router.post('/delete', urlencodedParser, (req, res) =>{

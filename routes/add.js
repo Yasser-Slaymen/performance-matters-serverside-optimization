@@ -36,10 +36,6 @@ async function fetchJson(url, postData = {}) {
 }
 
 
-// async function fetchJson(url) {
-//     return await fetch(url)
-//       .then((response) => response.json())
-//       .catch((error) => error);
-//   }
+
 
 module.exports = router

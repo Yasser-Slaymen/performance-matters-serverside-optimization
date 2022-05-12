@@ -8,7 +8,7 @@ const BaseUrl = 'https://codingthecurbs.api.fdnd.nl/v1/smartzone'
 // Method Get
 router.get('/',(req, res) =>{
     fetchJson(BaseUrl)
-    .then(function(JsonData) {
+    .then( (JsonData) => {
         res.render('smartzones', {
             title:'Smart Zones',
             smartzones: JsonData.data
