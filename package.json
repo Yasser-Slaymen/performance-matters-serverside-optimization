@@ -7,7 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "start": "nodemon app.js",
+    "start": "node app.js",
     "minify": "node ./scripts/minify.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
